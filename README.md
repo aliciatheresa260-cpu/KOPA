@@ -277,12 +277,6 @@ KOPA
 
 ---
 
-# 📄 License
-
-MIT License © 2026 Team KOPA
-
----
-
 <div align="center">
 
 ## 🌾 KOPA
