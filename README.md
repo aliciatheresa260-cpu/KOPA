@@ -32,13 +32,13 @@ Project ini dikembangkan sebagai proposal pada **Hackathon Digital Cooperatives 
 
 > Prototype saat ini masih dalam tahap pengembangan.
 
-| Splash | Home | CORA |
+| Splash | Home | Journey |
 |:------:|:----:|:----:|
-| ![](prototype/splash.png) | ![](prototype/home.png) | ![](prototype/cora.png) |
+| ![](docs/images/splash.png) | ![](docs/images/home.png) | ![](docs/images/journey.png) |
 
-| LifeQuest | Explorer | Profile |
+| CORA | Explorer | Profile |
 |:---------:|:--------:|:-------:|
-| ![](prototype/lifequest.png) | ![](prototype/explorer.png) | ![](prototype/profile.png) |
+| ![](docs/images/cora.png) | ![](docs/images/explorer.png) | ![](docs/images/profile.png) |
 
 ---
 
@@ -268,13 +268,12 @@ KOPA
 
 ---
 
-# 👥 Team
+## 👥 Team
 
 | Name | Role |
 |------|------|
-| Alicia Theresa Sianturi | Product Owner • AI Concept • Mobile Prototype |
-| Team Member | Frontend Developer |
-| Team Member | UI/UX Designer |
+| Alicia Theresa | Product Owner • Frontend Developer • UI/UX Designer |
+| Nama Teman | Product Owner • Backend Developer • AI Integration |
 
 ---
 
