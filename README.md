@@ -1,109 +1,298 @@
-# 🤝 KOPA — Your Cooperative Digital Companion
+# 🌾 KOPA
 
-> **Digital companion berbasis AI yang membantu Generasi Z mengenal, memahami, dan terhubung dengan koperasi melalui pengalaman yang personal, interaktif, dan relevan.**
+<h1 align="center">Knowledge & Opportunity Platform for Cooperative Advancement</h1>
 
----
+<h3 align="center">
+AI Digital Companion for Cooperative Journey
+</h3>
 
-## 📌 Tentang KOPA
+<p align="center">
 
-KOPA adalah aplikasi mobile yang dirancang khusus untuk menjawab tantangan rendahnya literasi koperasi di kalangan Generasi Z. Melalui pendekatan *personalized learning journey*, KOPA tidak hanya mengajarkan koperasi sebagai teori, tetapi memperkenalkannya sebagai solusi finansial nyata yang relevan dengan kehidupan sehari-hari pengguna.
+![Status](https://img.shields.io/badge/Status-MVP_Prototype-orange)
 
-Dikembangkan untuk **Hackathon Digital Cooperatives Expo 2026** — Kementerian Koperasi Republik Indonesia.
+![Platform](https://img.shields.io/badge/Platform-React_Native-blue)
 
----
+![Hackathon](https://img.shields.io/badge/Hackathon-Digital_Cooperatives_Expo_2026-red)
 
-## 🎯 Problem Statement
-
-Berdasarkan survei terhadap 43 responden (usia 17–25 tahun, mayoritas mahasiswa):
-
-| Temuan | Persentase |
-|--------|-----------|
-| Kurang memahami manfaat koperasi | 51,2% |
-| Lebih memilih layanan digital lain | 44,2% |
-| Menilai informasi koperasi kurang menarik | 41,9% |
-
-Mayoritas responden mengonsumsi konten melalui **TikTok, Instagram, dan YouTube**, serta menginginkan pembelajaran berbasis **video singkat, AI, simulasi, dan gamifikasi**.
-
-> Tantangan utama bukan pada koperasi itu sendiri, melainkan pada **cara koperasi diperkenalkan** kepada Generasi Z.
+</p>
 
 ---
 
-## ✨ Fitur Utama
+# 🚀 Overview
 
-### 🤖 CORA — Cooperative Recommendation Assistant
-AI companion berbasis Large Language Model (LLM) dengan prompt engineering yang dipersonalisasi berdasarkan profil, aktivitas, dan tujuan finansial pengguna.
+KOPA (**Knowledge & Opportunity Platform for Cooperative Advancement**) adalah AI Digital Companion yang membantu Generasi Z mengenal, memahami, dan memanfaatkan koperasi melalui pengalaman belajar yang personal, interaktif, dan relevan.
 
-### 🎓 Personalized Learning Journey
-Onboarding adaptif yang menyusun jalur belajar unik untuk setiap pengguna — dari menabung, membeli aset, hingga memulai usaha.
+Berbeda dengan platform edukasi konvensional, KOPA tidak hanya menyajikan materi, tetapi juga mendampingi pengguna melalui AI, simulasi finansial, gamifikasi, serta rekomendasi koperasi berdasarkan kebutuhan dan tujuan finansial masing-masing pengguna.
 
-### 📱 Micro-Learning Video
-Konten edukasi koperasi berformat vertikal, sesuai kebiasaan konsumsi konten Gen Z.
-
-### 🎮 LifeQuest
-Simulasi pengambilan keputusan finansial berbasis skenario nyata untuk melatih literasi keuangan secara kontekstual.
-
-### 🏆 Gamifikasi Terstruktur
-XP · Level · Badge · Daily Challenge · Leaderboard — untuk mendorong keterlibatan dan retensi jangka panjang.
-
-### 🗺️ Coop Explorer
-Fitur berbasis lokasi untuk menemukan koperasi, produk, layanan, dan kegiatan di sekitar pengguna.
+Project ini dikembangkan sebagai proposal pada **Hackathon Digital Cooperatives Expo 2026** yang diselenggarakan oleh **Kementerian Koperasi Republik Indonesia**.
 
 ---
 
-## 🛠️ Tech Stack
+# 📱 Prototype Preview
 
-| Layer | Teknologi |
-|-------|-----------|
-| Mobile Framework | React Native (Android & iOS) |
-| AI Companion | LLM via OpenAI / Gemini API |
-| AI Approach | Prompt Engineering berbasis profil pengguna |
-| Design | Figma |
+> Prototype saat ini masih dalam tahap pengembangan.
 
----
+| Splash | Home | CORA |
+|:------:|:----:|:----:|
+| ![](prototype/splash.png) | ![](prototype/home.png) | ![](prototype/cora.png) |
 
-## 🎨 Desain & Prototipe
-
-> 🔗 **[Lihat Desain di Figma](GANTI_DENGAN_LINK_FIGMA_KAMU)**
-
-Berikut tampilan antarmuka KOPA:
-
-<!-- Ganti URL di bawah dengan screenshot hasil export dari Figma -->
-| Onboarding & CORA | LifeQuest Simulation | Coop Explorer |
-|:-----------------:|:-------------------:|:-------------:|
-| ![Onboarding](assets/screenshots/onboarding.png) | ![LifeQuest](assets/screenshots/lifequest.png) | ![Explorer](assets/screenshots/explorer.png) |
+| LifeQuest | Explorer | Profile |
+|:---------:|:--------:|:-------:|
+| ![](prototype/lifequest.png) | ![](prototype/explorer.png) | ![](prototype/profile.png) |
 
 ---
 
-## 🏗️ Struktur Repositori
+# 🎯 Problem Statement
 
-```
-KOPA/
-├── assets/
-│   └── screenshots/        # Screenshot UI dari Figma
+Berdasarkan survei terhadap **43 responden**, mayoritas merupakan mahasiswa berusia **18–25 tahun**.
+
+## Temuan utama
+
+| Insight | Persentase |
+|---------|-----------:|
+| Kurang memahami manfaat koperasi | **51.2%** |
+| Lebih memilih layanan digital lain | **44.2%** |
+| Informasi koperasi kurang menarik | **41.9%** |
+
+Mayoritas responden juga menyatakan lebih sering belajar melalui:
+
+- TikTok
+- Instagram
+- YouTube
+
+serta menginginkan media pembelajaran berupa:
+
+- AI Assistant
+- Video singkat
+- Simulasi
+- Gamifikasi
+
+Temuan tersebut menunjukkan bahwa tantangan utama bukan terletak pada koperasi itu sendiri, melainkan pada bagaimana koperasi diperkenalkan kepada Generasi Z.
+
+---
+
+# 💡 Our Solution
+
+KOPA menghadirkan AI Digital Companion yang mempersonalisasi pengalaman belajar koperasi melalui:
+
+- 🤖 AI Recommendation
+- 🎯 Personalized Learning Journey
+- 🎮 Financial Simulation
+- 🏆 Gamification
+- 🗺️ Cooperative Discovery
+
+Dengan demikian koperasi tidak lagi dipelajari sebagai teori, tetapi menjadi bagian dari perjalanan finansial pengguna.
+
+---
+
+# ✨ Main Features
+
+## 🤖 CORA
+
+**Cooperative Recommendation Assistant**
+
+AI Companion berbasis Large Language Model (LLM) yang membantu pengguna:
+
+- memahami koperasi
+- menjawab pertanyaan
+- memberikan rekomendasi
+- menyusun learning journey
+
+---
+
+## 🎯 Personalized Learning Journey
+
+Setiap pengguna memiliki jalur belajar yang berbeda berdasarkan:
+
+- umur
+- status
+- tujuan finansial
+- aktivitas
+- progress belajar
+
+---
+
+## 🎮 LifeQuest
+
+Financial Simulation berbasis kehidupan nyata.
+
+Contoh skenario:
+
+- membeli laptop
+- menabung
+- modal usaha
+- dana darurat
+
+Pengguna dapat melihat konsekuensi dari setiap keputusan finansial.
+
+---
+
+## 📱 Micro Learning
+
+Konten edukasi koperasi dalam bentuk video pendek yang mengikuti kebiasaan konsumsi konten Generasi Z.
+
+---
+
+## 🏆 Gamification
+
+KOPA menggunakan sistem gamifikasi untuk meningkatkan engagement.
+
+Fitur:
+
+- XP
+- Level
+- Badge
+- Daily Challenge
+- Achievement
+- Leaderboard
+
+---
+
+## 🗺️ Coop Explorer
+
+Membantu pengguna menemukan:
+
+- koperasi
+- produk
+- layanan
+- kegiatan
+- event
+
+berdasarkan lokasi pengguna.
+
+---
+
+# 🏗️ System Architecture
+
+> Diagram arsitektur akan ditambahkan pada folder `docs/architecture.png`
+
+![](docs/architecture.png)
+
+---
+
+# 🛠️ Tech Stack
+
+| Layer | Technology |
+|--------|------------|
+| Mobile Framework | React Native (Expo) |
+| Programming Language | TypeScript |
+| Backend | Node.js + Express *(Planned)* |
+| Database | Firebase Firestore *(Planned)* |
+| Authentication | Firebase Authentication |
+| AI | OpenAI API / Gemini API |
+| Maps | Google Maps API |
+
+---
+
+# 🗺️ Development Roadmap
+
+## ✅ Phase 1 — Research & Validation
+
+- [x] Problem Identification
+- [x] User Survey (43 Respondents)
+- [x] User Needs Analysis
+- [x] Problem Validation
+- [x] MVP Planning
+- [x] UI Prototype
+- [x] GitHub Repository
+
+---
+
+## 🚧 Phase 2 — MVP Development
+
+- [x] React Native Setup
+- [x] Initial UI Prototype
+- [ ] Firebase Authentication
+- [ ] Firestore Integration
+- [ ] LifeQuest Interaction
+- [ ] Gamification System
+- [ ] Responsive Mobile UI
+
+---
+
+## 🔜 Phase 3 — AI Personalization
+
+- [ ] CORA AI Integration
+- [ ] Prompt Engineering
+- [ ] Personalized Recommendation
+- [ ] Personalized Learning Journey
+- [ ] AI Financial Companion
+
+---
+
+## 🚀 Phase 4 — Cooperative Ecosystem
+
+- [ ] Coop Explorer
+- [ ] Google Maps Integration
+- [ ] Cooperative Database
+- [ ] Cooperative Recommendation Engine
+- [ ] Cooperative Events
+
+---
+
+## 🌱 Phase 5 — Public Release
+
+- [ ] User Testing
+- [ ] UI/UX Improvement
+- [ ] Performance Optimization
+- [ ] Security Enhancement
+- [ ] SHU Calculator
+- [ ] Cooperative Marketplace
+- [ ] Public Release
+
+---
+
+# 📂 Repository Structure
+
+```text
+KOPA
+│
+├── backend/
+│
 ├── docs/
-│   ├── problem-statement.md
-│   └── technical-overview.md
+│   ├── architecture.png
+│   ├── survey-summary.pdf
+│   └── screenshots/
+│
+├── frontend/
+│   ├── src/
+│   ├── assets/
+│   ├── package.json
+│   ├── app.json
+│   └── tsconfig.json
+│
+├── prototype/
+│
 └── README.md
 ```
 
 ---
 
-## 👥 Tim
+# 👥 Team
 
-| Nama | Role |
+| Name | Role |
 |------|------|
-| [Nama 1] | Product & AI Design |
-| [Nama 2] | UI/UX Designer |
-| [Nama 3] | Mobile Developer |
+| Alicia Theresa Sianturi | Product Owner • AI Concept • Mobile Prototype |
+| Team Member | Frontend Developer |
+| Team Member | UI/UX Designer |
 
 ---
 
-## 📄 Lisensi
+# 📄 License
 
-MIT License © 2026 Tim KOPA
+MIT License © 2026 Team KOPA
 
 ---
 
-<p align="center">
-  Dibuat dengan ❤️ untuk ekosistem koperasi Indonesia yang lebih inklusif dan digital.
-</p>
+<div align="center">
+
+## 🌾 KOPA
+
+### AI Digital Companion for Cooperative Journey
+
+**Transforming Cooperative Literacy into an Engaging Digital Experience for Generation Z**
+
+Built with ❤️ for Hackathon Digital Cooperatives Expo 2026
+
+</div>
+
